@@ -56,6 +56,7 @@ class _ExpensesState extends State<Expenses> {
 
 
     return Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(
         title: Text("Expense App"),
         actions: [IconButton(onPressed: openBottomSheet, icon: Icon(Icons.add))],
